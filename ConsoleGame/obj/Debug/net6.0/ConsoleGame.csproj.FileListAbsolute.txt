@@ -1,0 +1,15 @@
+D:\11B_ArkosiArmand\kiiras\ConsoleGame\ConsoleGame\bin\Debug\net6.0\ConsoleGame.exe
+D:\11B_ArkosiArmand\kiiras\ConsoleGame\ConsoleGame\bin\Debug\net6.0\ConsoleGame.deps.json
+D:\11B_ArkosiArmand\kiiras\ConsoleGame\ConsoleGame\bin\Debug\net6.0\ConsoleGame.runtimeconfig.json
+D:\11B_ArkosiArmand\kiiras\ConsoleGame\ConsoleGame\bin\Debug\net6.0\ConsoleGame.dll
+D:\11B_ArkosiArmand\kiiras\ConsoleGame\ConsoleGame\bin\Debug\net6.0\ConsoleGame.pdb
+D:\11B_ArkosiArmand\kiiras\ConsoleGame\ConsoleGame\obj\Debug\net6.0\ConsoleGame.csproj.AssemblyReference.cache
+D:\11B_ArkosiArmand\kiiras\ConsoleGame\ConsoleGame\obj\Debug\net6.0\ConsoleGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\11B_ArkosiArmand\kiiras\ConsoleGame\ConsoleGame\obj\Debug\net6.0\ConsoleGame.AssemblyInfoInputs.cache
+D:\11B_ArkosiArmand\kiiras\ConsoleGame\ConsoleGame\obj\Debug\net6.0\ConsoleGame.AssemblyInfo.cs
+D:\11B_ArkosiArmand\kiiras\ConsoleGame\ConsoleGame\obj\Debug\net6.0\ConsoleGame.csproj.CoreCompileInputs.cache
+D:\11B_ArkosiArmand\kiiras\ConsoleGame\ConsoleGame\obj\Debug\net6.0\ConsoleGame.dll
+D:\11B_ArkosiArmand\kiiras\ConsoleGame\ConsoleGame\obj\Debug\net6.0\refint\ConsoleGame.dll
+D:\11B_ArkosiArmand\kiiras\ConsoleGame\ConsoleGame\obj\Debug\net6.0\ConsoleGame.pdb
+D:\11B_ArkosiArmand\kiiras\ConsoleGame\ConsoleGame\obj\Debug\net6.0\ConsoleGame.genruntimeconfig.cache
+D:\11B_ArkosiArmand\kiiras\ConsoleGame\ConsoleGame\obj\Debug\net6.0\ref\ConsoleGame.dll

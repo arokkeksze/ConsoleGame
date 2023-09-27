@@ -32,11 +32,48 @@
                 Console.CursorTop = o_y;
                 Console.Write("O");
 
-                switch (Console.ReadKey().Key)
+                switch (Console.ReadKey(true).Key)
                 {
                     case ConsoleKey.LeftArrow:
                         x_x--;
                         break;
+
+                    case ConsoleKey.RightArrow:
+                        x_x++;
+                        break;
+
+                    case ConsoleKey.UpArrow:
+                        x_y--;
+                        break;
+
+                    case ConsoleKey.DownArrow:
+                        x_y++;
+                        break;
+
+                    case ConsoleKey.A:
+                        o_x--;
+                        break;
+
+                    case ConsoleKey.D:
+                        o_x++;
+                        break;
+
+                    case ConsoleKey.W:
+                        o_y--;
+                        break;
+
+                    case ConsoleKey.S:
+                        o_y++;
+                        break;
+                }
+
+                if (x_x == o_x && x_y == o_y)
+                {
+                    Console.Clear();
+                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine("GAME OVER");
+                    Console.ReadLine();
                 }
             }
         }
