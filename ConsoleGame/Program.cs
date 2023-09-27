@@ -53,10 +53,11 @@
                         break;
                 }
 
+                                    
 
 
-
-
+                // WASD-re ne az O mozogjon, hanemaz ablak
+                // O középen fixálva, X is fixált amikor ablak mozog
 
                 switch (Console.ReadKey(true).Key)
                 {
