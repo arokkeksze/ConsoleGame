@@ -37,7 +37,21 @@
                 Console.CursorTop = o_y;
                 Console.Write("O");
 
+                string thing = "-A";
 
+                switch (thing)
+                {
+                    case "-A":
+                        break;
+
+                    case "--all":
+                        Console.WriteLine("goofer moofer");
+                        break;
+
+                    default:
+                        Console.WriteLine("u stupid");
+                        break;
+                }
 
 
 
@@ -47,64 +61,54 @@
                 switch (Console.ReadKey(true).Key)
                 {
                     case ConsoleKey.LeftArrow:
-                        if (x_x > 0)
-                        {
-                            x_x--;
-                        }
+                        x_x--;
                         break;
 
                     case ConsoleKey.RightArrow:
-                        if (x_x < Console.WindowWidth-1)
-                        {
-                            x_x++;
-                        }
+                        x_x++;
                         break;
 
                     case ConsoleKey.UpArrow:
-                        if (x_y > 1)
-                        {
-                            x_y--;
-                        }
+                        x_y--;
                         break;
 
                     case ConsoleKey.DownArrow:
-                        if (x_y < Console.WindowHeight)
-                        {
-                            x_y++;
-                        }
+                        x_y++;
                         break;
 
                     case ConsoleKey.A:
-                        if (o_x > 0)
-                        {
-                            o_x--;
-                        }
+                        o_x--;
                         break;
 
                     case ConsoleKey.D:
-                        if (o_x < Console.WindowWidth - 1)
-                        {
-                            o_x++;
-                        }
+                        o_x++;
                         break;
 
                     case ConsoleKey.W:
-                        if (o_y > 1)
-                        {
-                            o_y--;
-                        }
+                        o_y--;
                         break;
 
                     case ConsoleKey.S:
-                        if (o_y < Console.WindowHeight)
-                        {
-                            o_y++;
-                        }
+                        o_y++;
                         break;
+
                     case ConsoleKey.End:
                         isInGame = false;
                         break;
                 }
+
+                x_x = Math.Max(0, x_x);
+                x_x = Math.Min(Console.WindowWidth - 1, x_x);
+
+                x_y = Math.Max(0, x_y);
+                x_y = Math.Min(Console.WindowHeight - 1, x_y);
+
+                o_x = Math.Max(0, o_x);
+                o_x = Math.Min(Console.WindowWidth - 1, o_x);
+
+                o_y = Math.Max(0, o_y);
+                o_y = Math.Min(Console.WindowHeight - 1, o_y);
+
 
                 if (x_x == o_x && x_y == o_y)
                 {
