@@ -69,9 +69,9 @@
 
                 if (x_x == o_x && x_y == o_y)
                 {
-                    Console.Clear();
                     Console.BackgroundColor = ConsoleColor.Red;
                     Console.ForegroundColor = ConsoleColor.White;
+                    Console.Clear();
                     Console.WriteLine("GAME OVER");
                     Console.ReadLine();
                 }
