@@ -18,7 +18,9 @@
             int o_x = Console.WindowWidth -10;
             int o_y = Console.WindowHeight -10;
 
-            while (true)
+            bool isInGame = true;
+
+            while (isInGame)
             {
                 Console.Clear();
 
@@ -69,6 +71,7 @@
 
                 if (x_x == o_x && x_y == o_y)
                 {
+                    isInGame = false;
                     Console.BackgroundColor = ConsoleColor.Red;
                     Console.ForegroundColor = ConsoleColor.White;
                     Console.Clear();
